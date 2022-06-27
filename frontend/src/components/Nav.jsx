@@ -3,15 +3,15 @@ import { NavLink } from 'react-router-dom'
 import Logo from '../assets/argentBankLogo.png'
 import SignInButton from './SignInButton'
 
-const Header = () => {
+const Nav = () => {
   return (
-    <header>
+    <nav>
       <NavLink to='/'>
-        <img src={Logo} alt='ArgentBank logo'></img>
+        <img className='nav-logo' src={Logo} alt='ArgentBank logo'></img>
       </NavLink>
       {<SignInButton />}
-    </header>
+    </nav>
   )
 }
 
-export default Header
+export default Nav

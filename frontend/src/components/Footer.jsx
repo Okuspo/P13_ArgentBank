@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer>
-      Copyright 2020 Argent Bank
+      <p className='footer-text'>Copyright 2020 Argent Bank</p>
     </footer>
   )
 }

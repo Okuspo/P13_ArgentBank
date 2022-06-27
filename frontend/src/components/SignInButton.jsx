@@ -5,9 +5,9 @@ import { NavLink } from 'react-router-dom'
 
 const SignInButton = () => {
   return (
-    <NavLink to='/login' className='sign-in-button'>
+    <NavLink to='/login' className='nav-button sign-in'>
       {<FontAwesomeIcon icon={faCircleUser} />}
-      <span>Sign In</span>
+      <div>Sign In</div>
     </NavLink>
   )
 }

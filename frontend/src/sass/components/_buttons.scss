@@ -1,0 +1,12 @@
+@use '../abstract/' as a;
+
+.nav-button {
+  text-align: center;
+  color: a.$clr-lgrey;
+  display: flex;
+
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
